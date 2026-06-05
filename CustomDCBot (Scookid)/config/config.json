@@ -1,13 +1,13 @@
 {
-  "token": "MTQ1MzA2NDc3Mzk3MjUyOTIyMg.GL3Bib.qCeI52doFnkiMsz5L_vPA4Wpz5VCJfKHmxQU2w",
-  "prefix": "G!",
-  "botOperators": ["1319011502556057661", "1425493842710495265", "1265401737712369705", "766533921579335721", "1382717749259927665", "1403270506899177502", "1289639265147424798"],
-  "guildID": "1390757022080696362",
+  "token": "Bot token",
+  "prefix": "Prefixed",
+  "botOperators": ["User Id"],
+  "guildID": "Szerver ID",
   "disableStatus": false,
-  "user_presence": "GABOHUNJIPI szerverre figyelése, moderálása",
+  "user_presence": "Státusz",
   "logLevel": "debug",
-  "logChannelID": "1453077254383992864",
-  "timezone": "Europe/Berlin",
+  "logChannelID": "Csatrona ID",
+  "timezone": "Europe/Budapest",
   "disableEveryoneProtection": false,
   "syncCommandGlobally": false
 }
