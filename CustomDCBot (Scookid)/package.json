@@ -19,7 +19,7 @@
   "funding": "https://github.com/ScootKit/CustomDCBot?sponsor=1",
   "license": "SEE LICENSE IN LICENSE",
   "dependencies": {
-    "@androz2091/discord-invites-tracker": "1.1.1",
+    "@androz2091/discord-invites-tracker": "1.2.3",
     "@pixelfactory/privatebin": "2.6.1",
     "@scderox/ikea-name-generator": "1.0.0",
     "@twurple/api": "5.3.4",
