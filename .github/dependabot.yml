@@ -19,3 +19,8 @@ updates:
     directory: "/Discord-Musicbot (SudhanPlayz)" # Location of package manifests
     schedule:
       interval: "weekly"
+
+  - package-ecosystem: "bundler" # See documentation for possible values
+    directory: "/Phoenix (jagrosh)" # Location of package manifests
+    schedule:
+      interval: "weekly"
