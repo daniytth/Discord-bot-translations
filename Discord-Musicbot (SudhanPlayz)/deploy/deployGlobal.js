@@ -16,5 +16,5 @@ const LoadCommands = require("../util/loadCommands");
 			body: commands,
 		})
 		.catch(console.log);
-	console.log("A parancsok sikeresen szinkronizálva lett!");
+	console.log("A parancsok sikeresen szinkronizálva lettek!");
 })();
