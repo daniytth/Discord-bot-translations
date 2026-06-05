@@ -1,0 +1,26 @@
+# To get started with Dependabot version updates, you'll need to specify which
+# package ecosystems to update and where the package manifests are located.
+# Please see the documentation for all configuration options:
+# https://docs.github.com/code-security/dependabot/dependabot-version-updates/configuration-options-for-the-dependabot.yml-file
+
+version: 2
+updates:
+  - package-ecosystem: "npm" # See documentation for possible values
+    directory: "/bot (gAwesomeBot)" # Location of package manifests
+    schedule:
+      interval: "weekly"
+
+  - package-ecosystem: "npm" # See documentation for possible values
+    directory: "/CustomDCBot (Scookid)" # Location of package manifests
+    schedule:
+      interval: "weekly"
+
+  - package-ecosystem: "npm" # See documentation for possible values
+    directory: "/Discord-Musicbot (SudhanPlayz)" # Location of package manifests
+    schedule:
+      interval: "weekly"
+
+  - package-ecosystem: "bundler" # See documentation for possible values
+    directory: "/Phoenix (jagrosh)" # Location of package manifests
+    schedule:
+      interval: "weekly"
