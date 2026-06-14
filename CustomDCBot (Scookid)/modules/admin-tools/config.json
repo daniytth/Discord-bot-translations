@@ -2,14 +2,12 @@
   "description": {},
   "humanName": {
     "en": "Configuration",
+    "hu": "Konfiguráció",
     "de": "Konfiguration"
   },
   "filename": "config.json",
   "commandsWarnings": {
-    "normal": [
-      "/admin",
-      "/stealemote"
-    ]
+    "normal": ["/admin", "/stealemote"]
   },
   "content": []
 }

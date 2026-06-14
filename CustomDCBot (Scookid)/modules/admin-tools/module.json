@@ -7,17 +7,15 @@
   },
   "openSourceURL": "https://github.com/SCNetwork/CustomDCBot/tree/main/modules/admin-tools",
   "commands-dir": "/commands",
-  "config-example-files": [
-    "config.json"
-  ],
-  "tags": [
-    "administration"
-  ],
+  "config-example-files": ["config.json"],
+  "tags": ["administration"],
   "humanReadableName": {
-    "en": "Admin-Tools"
+    "en": "Admin-Tools",
+    "hu": "Admin-Eszközök"
   },
   "description": {
     "en": "Simple tools for admins - move channels and roles via commands or copy an emoji from another server to your server.",
+    "hu": "Szimpla eszközök adminoknak - csatorna és rangok mozgatása vagy emoji másolása egy másik szerverről a szerverre.",
     "de": "Einfache Tools für Admins, um Channel und Rollen per Command zu verschieben und Emojis zu leihen."
   }
 }
