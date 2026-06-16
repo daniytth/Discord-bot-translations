@@ -71,7 +71,7 @@
     "uuid": "^3.3.2",
     "vm2": "^3.6.4",
     "wikijs": "^6.0.0",
-    "winston": "^3.2.1",
+    "winston": "^3.19.0",
     "winston-daily-rotate-file": "^3.5.1",
     "wolfram-node": "0.0.1",
     "xml-parser": "^1.2.1",
