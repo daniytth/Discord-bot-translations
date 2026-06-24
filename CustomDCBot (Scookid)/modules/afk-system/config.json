@@ -2,6 +2,7 @@
   "description": {},
   "humanName": {
     "en": "Configuration",
+    "hu": "Konfiguráció",
     "de": "Konfiguration"
   },
   "filename": "config.json",
@@ -10,14 +11,17 @@
       "name": "sessionEndedSuccessfully",
       "humanName": {
         "en": "AFK-Session ended successfully",
+        "hu": "AFK-munkamenet véget ért sikeresen.",
         "de": "AFK-Sitzung erfolgreich beendet"
       },
       "default": {
         "en": "✅ Your AFK status has been removed. Welcome back!",
+        "hu": "✅ Az AFK státuszod el lett távolítva. Üdv vissza!",
         "de": "✅ Dein Status ist jetzt nicht mehr \"AFK\". Willkommen zurück!"
       },
       "description": {
         "en": "This message gets send if a user ended their AFK-session successfully.",
+        "hu": "Ez az üzenet akkor kerül küldésre ha a felhasználónak sikeresen véget ért a AFK-munkamenete.",
         "de": "Diese Nachricht wird gesendet, wenn der Nutzer seine AFK-Sitzung erfolgreich beendet."
       },
       "type": "string",
@@ -27,14 +31,17 @@
       "name": "sessionStartedSuccessfully",
       "humanName": {
         "en": "AFK-Session started successfully",
+        "hu": "AFK-Munkamenet sikeresen elkedzve.",
         "de": "AFK-Sitzung erfolgreich gestartet"
       },
       "default": {
         "en": "✅ Your status has been updated to AFK. If another member mentions you while your AFK, we're going to notify them about your status.",
+        "hu": "✅ A státuszod AFK-ra lett frissítve. Ha más tag megemlít téged miközben AFK vagy, mi elmondjuk a státuszodat.",
         "de": "✅ Dein Status wurde auf \"AFK\" aktualisiert. Wenn dich ein anderer Nutzer erwähnt, während du AFK bist, werden wir ihn über deinen Status informieren."
       },
       "description": {
         "de": "This message gets send if a user started their session successfully.",
+        "hu": "Ez az üzebet akkor kerül küldésre ha a felhasználó sikeresen elkezdte a munkamenetet.",
         "en": "Diese Nachricht wird Nutzern angezeigt, wenn sie ihren Status auf AFK wechseln."
       },
       "type": "string",
@@ -44,14 +51,17 @@
       "name": "afkUserWithReason",
       "humanName": {
         "en": "User is AFK with reason",
+        "hu": "Felhasználó AFK egy indokkal.",
         "de": "Nutzer ist mit Begründung AFK"
       },
       "default": {
         "en": "ℹ %user% is currently AFK and specified the following reason: \"%reason%\".",
+        "hu": "ℹ️ %user% jelenleg AFK és ezt az indokot adta meg: \"%reason%\".",
         "de": "ℹ %user% ist aktuell AFK und hat folgenden Grund angegeben: \"%reason%\"."
       },
       "description": {
         "en": "This message gets send if a pinged user is currently AFK with a previously specified reason.",
+        "hu": "Ez az üzenet akkor kerül küldésre ha a felhasználó az AFK és a előzőleg megadott indokkal.",
         "de": "Diese Nachricht wird gesendet, wenn ein Nutzer erwähnt wird, der AFK ist und zuvor eine Begründung dafür angegeben hat."
       },
       "type": "string",
@@ -61,6 +71,7 @@
           "name": "reason",
           "description": {
             "de": "Begründung für die Abwesenheit des Nutzers",
+            "hu": "AFK indoka.",
             "en": "Reason for their absence"
           }
         },
@@ -68,7 +79,8 @@
           "name": "user",
           "description": {
             "de": "Erwähnung des AFK Nutzers",
-            "en": "Mention of the user who is AFK"
+            "en": "Mention of the user who is AFK",
+            "hu": "A felhasználó említése aki AFK."
           }
         }
       ]
@@ -77,14 +89,17 @@
       "name": "afkUserWithoutReason",
       "humanName": {
         "en": "User is AFK without reason",
+        "hu": "Felhasználó AFK egy indok nélkül.",
         "de": "Nutzer ist ohne Begründung AFK"
       },
       "default": {
         "en": "ℹ %user% is currently AFK.",
+        "hu": "ℹ️ %user% jelenleg AFK.",
         "de": "ℹ %user% ist aktuell AFK."
       },
       "description": {
         "en": "This message gets send if a pinged user is currently AFK without a previously specified reason.",
+        "hu": "Ez az üzenet akkor kerül küldésre ha a felhasználó az AFK",
         "de": "Diese Nachricht wird gesendet, wenn ein Nutzer erwähnt wird, der AFK ist und zuvor keine Begründung dafür angegeben hat."
       },
       "type": "string",

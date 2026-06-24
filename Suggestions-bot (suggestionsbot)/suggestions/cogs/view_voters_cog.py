@@ -17,7 +17,8 @@ from suggestions.utility import DisnakePaginator
 
 if TYPE_CHECKING:
     from alaric import Document
-    from suggestions import SuggestionsBot, State
+
+    from suggestions import State, SuggestionsBot
 
 logger = logging.getLogger(__name__)
 
@@ -103,7 +104,7 @@ class ViewVotersCog(commands.Cog):
             )
         )
 
-    @commands.message_command(name="View voters")
+    @commands.message_command(name="Szavazók megtekintése")
     @cooldowns.cooldown(1, 3, bucket=InteractionBucket.author)
     async def view_suggestion_voters(
         self, interaction: disnake.GuildCommandInteraction
